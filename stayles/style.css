@@ -444,11 +444,11 @@ footer{
     display: flex;
     justify-content: center;
 }
-.container2>img{
+.container2>a>img{
     margin: 50px 20px 0 20px;
     transition: 0.2s ease;
 }
-.container2>img:hover{
+.container2>a>img:hover{
     transform: scale(1.1);
 }
 
