@@ -22,7 +22,7 @@
 /* header */
 header{
     background:linear-gradient(to top, rgb(0, 0, 0, 0.5) 50%, rgb(0, 0, 0, 0.5) 50%) ,url(../resources/Banner\ Image.png);
-    width: 1440px;
+    width: 1320px;
     height: 600px;
     margin: 50px auto 0 auto;
 }
@@ -247,7 +247,7 @@ header>h1{
 /* section protfolio */
 .protfolio{
     width: 1320px;
-    margin: 100px  auto;
+    margin: 100px  auto 100px auto;
 }
 .protfolio>h5{
     color: #F00;
@@ -271,8 +271,11 @@ header>h1{
     line-height: 32px;
     margin-bottom: 30px;
 }
+.protfolio-img-container{
+    width: 1320px;
+}
 .protfolio-img-container>img{
-    width: 424px;
+    width: 437px;
     height: 450px;
     padding: 24px;
     transition: 0.2s ease;
@@ -288,6 +291,7 @@ header>h1{
     background-color: #FFF2F2;
     text-align: center;
     margin-bottom: 100px;
+    height: 616px;;
 }
 .subscribe>img{
     margin-bottom: 20px;
@@ -309,28 +313,47 @@ header>h1{
     font-size: 20px;
     font-weight: 400;
 }
-.subscribe>input{
+.input-container{
+    position: relative;
+    margin-top: 70px;
+}
+.input-space{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type="email"]{
     padding: 20px  60px 20px 20px;
     border: none;
     border-radius: 50px 0 0 50px;
+    outline: none;
 }
-.subscribe>input::placeholder{
+input[type="email"]::placeholder{
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
 }
-.subscribe>button{
+input[type="submit"]{
+    padding: 13px  40px 18px 40px;
+    border: none;
+    font-family: Inter;
+    position: relative;
     border-radius: 0 50px 50px 0;
-    margin-bottom: 100px;
-    padding: 15px 32px;
+    left: -5px;
+    border-radius: 0 50px 50px 0;
     font-weight: 600;
     font-size: 20px;
     border: none;
     color: #FFF;
-    background-color: #F00;
+    background-color: #F00
 }
+
+
+
 
 
 /* footer */
@@ -359,7 +382,7 @@ footer{
 }
 .container1>div>h1>img{
     margin: 0px 10px 0 0;
-    padding-top: 30px;
+
 }
 
 .container2{
