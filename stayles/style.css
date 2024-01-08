@@ -415,13 +415,13 @@ footer{
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    margin-top: 120px;
-    margin-left: 144px;
+    margin-top: 90px;
+    margin-left: 285px;
 }
 
 .container1 ul{
-    margin-top: 120px;
-    margin-right: 144px;
+    margin-top: 90px;
+    margin-right: 285px;
 }
 .container1 ul li{
     list-style: none;
@@ -445,7 +445,7 @@ footer{
     justify-content: center;
 }
 .container2>a>img{
-    margin: 50px 20px 0 20px;
+    margin: 0px 20px 0 20px;
     transition: 0.2s ease;
 }
 .container2>a>img:hover{
@@ -463,10 +463,10 @@ footer{
     font-weight: 500;
     margin: 100px 100px 0 100px ;
 }.container3>div>h1:first-child{
-    margin-left: 144px;
+    margin-left: 285px;
 }
 .container3>div>h1:last-child{
-    margin-right: 144px;
+    margin-right: 285px;
 }
 .unsubscribe{
     transition: 0.2s ease;
@@ -474,6 +474,20 @@ footer{
 .unsubscribe:hover{
     color: rgb(185, 177, 177);
 }
-
+hr{
+    display: block;
+    margin:  0 auto;
+    width: 1320px;
+    height: 1px;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+}
+.hr1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hr2:last-child{
+    margin-top: 50px;
+}
 
 /* Designed by: MuHammad Saif */
