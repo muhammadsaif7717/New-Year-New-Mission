@@ -13,6 +13,7 @@
     font-size: 20px;
     border-radius: 8px;
     border: none;
+    transition: 0.2s ease;
 }
 .btn-org:hover{
     background-color: #ff7200;
@@ -239,9 +240,9 @@ header>h1{
 .functional .img4{
     position: absolute;
     z-index: 1;
-    width: 600px;
-    top: 150px;
-    left: 350px;
+    width: 500px;
+    top: 200px;
+    left: 300px;
 }
 
 /* section protfolio */
@@ -349,7 +350,11 @@ input[type="submit"]{
     font-size: 20px;
     border: none;
     color: #FFF;
-    background-color: #F00
+    background-color: #F00;
+    transition: 0.2s ease;
+}
+input[type="submit"]:hover{
+    background-color: #ff7200;
 }
 
 
@@ -402,7 +407,11 @@ footer{
     justify-content: center;
 }
 .container2>img{
-    margin: 50px 20px 0 20px
+    margin: 50px 20px 0 20px;
+    transition: 0.2s ease;
+}
+.container2>img:hover{
+    transform: scale(1.1);
 }
 
 .container3{
@@ -415,4 +424,10 @@ footer{
     font-size: 24px;
     font-weight: 500;
     margin: 100px 100px 0 100px ;
+}
+.unsubscribe{
+    transition: 0.2s ease;
+}
+.unsubscribe:hover{
+    color: rgb(185, 177, 177);
 }
