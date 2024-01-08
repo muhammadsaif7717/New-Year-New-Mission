@@ -462,6 +462,11 @@ footer{
     font-size: 24px;
     font-weight: 500;
     margin: 100px 100px 0 100px ;
+}.container3>div>h1:first-child{
+    margin-left: 144px;
+}
+.container3>div>h1:last-child{
+    margin-right: 144px;
 }
 .unsubscribe{
     transition: 0.2s ease;
