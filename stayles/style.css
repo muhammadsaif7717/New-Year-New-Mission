@@ -1,12 +1,13 @@
 /* common stayles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Merriweather', serif;
 }
-.btn-org{
+
+.btn-org {
     padding: 16px 32px;
     background-color: #F00;
     color: #fff;
@@ -15,29 +16,31 @@
     border: none;
     transition: 0.2s ease;
 }
-.btn-org:hover{
+
+.btn-org:hover {
     background-color: #ff7200;
 }
 
 
 
 /* header */
-header{
-    background:linear-gradient(to top, rgb(0, 0, 0, 0.5) 50%, rgb(0, 0, 0, 0.5) 50%) ,url(../resources/Banner\ Image.png);
+header {
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.5) 50%, rgb(0, 0, 0, 0.5) 50%), url(../resources/Banner\ Image.png);
     width: 1320px;
     height: 600px;
     margin: 50px auto 0 auto;
 }
 
-header>h4{
+header>h4 {
     color: #FFF;
     text-align: center;
-    font-size: 32px;;
+    font-size: 32px;
+    ;
     font-weight: 400;
     padding-top: 177px;
 }
 
-header>h1{
+header>h1 {
     color: #FFF;
     text-align: center;
     font-size: 72px;
@@ -49,7 +52,7 @@ header>h1{
 
 
 /* section 60% off */
-.off-60>h2{
+.off-60>h2 {
     margin-top: 100px;
     color: #F00;
     text-align: center;
@@ -57,7 +60,8 @@ header>h1{
     font-size: 88px;
     font-weight: 700;
 }
-.off-60>h5{
+
+.off-60>h5 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -65,48 +69,54 @@ header>h1{
     font-weight: 500;
     margin-top: 40px;
 }
-.off-60>h3{
+
+.off-60>h3 {
     color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
-.off-60>img{
+
+.off-60>img {
     width: 803px;
     height: 500px;
     display: block;
-    margin: 50px auto ;
+    margin: 50px auto;
 }
 
 
 
 
 /* section party */
-.party{
-    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../resources/Vectorrr.png);
+.party {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
     width: 1320px;
     height: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.party>div>h1{
+
+.party>div>h1 {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
     letter-spacing: 7.04px;
     padding: 126px 0 0 126px;
 }
-.party>div>p{
+
+.party>div>p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 18px;;
+    font-size: 18px;
+    ;
     font-weight: 400;
     margin-left: 126px;
     margin-top: 24px;
 }
-.party>div>button{
+
+.party>div>button {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -118,11 +128,12 @@ header>h1{
     margin-top: 50px;
     transition: 0.2s ease;
 }
-.party>div>button:hover{
+
+.party>div>button:hover {
     color: rgb(196, 196, 196);
 }
 
-.party>div>img{
+.party>div>img {
     margin: 68px 138px 67px 0;
 
 }
@@ -131,14 +142,15 @@ header>h1{
 
 
 /* section join-now */
-.join-now{
-    margin: 100px auto ;
+.join-now {
+    margin: 100px auto;
     text-align: center;
     width: 1320px;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
-.join-now>h1{
+
+.join-now>h1 {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -147,13 +159,16 @@ header>h1{
     line-height: 56px;
     text-transform: capitalize;
 }
-.join-now>h1:first-child{
+
+.join-now>h1:first-child {
     padding-top: 100px;
 }
-.join-now>h1>span{
+
+.join-now>h1>span {
     color: #F00;
 }
-.join-now>button{
+
+.join-now>button {
     margin-top: 50px;
     margin-bottom: 100px;
     font-family: Inter;
@@ -163,12 +178,12 @@ header>h1{
 
 
 /* section offer */
-.offer{
+.offer {
     display: flex;
     justify-content: center;
 }
 
-.offer-container>h2{
+.offer-container>h2 {
     margin-top: 100px;
     color: #F00;
     font-family: Inter;
@@ -176,41 +191,47 @@ header>h1{
     font-weight: 500;
     margin-bottom: 10px;
 }
-.offer-container>h1{
+
+.offer-container>h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 10px;
 }
-.offer-container>p{
+
+.offer-container>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
 }
-.img-container>img{
+
+.img-container>img {
     padding: 30px;
     border: 15px solid #F00;
     border-radius: 100%;
     margin: 0 50px;
 }
-.year-container>h1{
+
+.year-container>h1 {
     margin-top: 100px;
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
-.year-container>p{
+
+.year-container>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     margin-top: 16px;
 }
-.year-container>img{
+
+.year-container>img {
     margin-top: 43px;
 }
 
@@ -218,7 +239,7 @@ header>h1{
 
 
 /* section functional */
-.functional>h5{
+.functional>h5 {
     margin-top: 100px;
     text-align: center;
     color: black;
@@ -227,7 +248,8 @@ header>h1{
     font-weight: 500;
     margin-bottom: 10px;
 }
-.functional>h1{
+
+.functional>h1 {
     text-align: center;
     color: #070211;
     font-family: Merriweather;
@@ -235,10 +257,12 @@ header>h1{
     font-weight: 900;
     margin-bottom: 10px;
 }
-.functional>h1>span{
+
+.functional>h1>span {
     color: #F00;
 }
-.functional>p{
+
+.functional>p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -247,29 +271,34 @@ header>h1{
     font-weight: 500;
     line-height: 32px;
 }
-.images{
+
+.images {
     width: 1320px;
     margin: 100px auto 0 auto;
     display: block;
     position: relative;
 }
-.images>.img1{
+
+.images>.img1 {
     position: absolute;
     left: 730px;
     top: 75px;
 }
-.images>.img2{
+
+.images>.img2 {
     float: right;
 }
 
-.img2-container{
+.img2-container {
     position: relative;
 }
-.functional .img3{
+
+.functional .img3 {
     display: block;
     margin: 0 auto;
 }
-.functional .img4{
+
+.functional .img4 {
     position: absolute;
     z-index: 1;
     width: 500px;
@@ -281,25 +310,28 @@ header>h1{
 
 
 /* section protfolio */
-.protfolio{
+.protfolio {
     width: 1320px;
-    margin: 100px  auto 100px auto;
+    margin: 100px auto 100px auto;
 }
-.protfolio>h5{
+
+.protfolio>h5 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
 }
-.protfolio>h1{
+
+.protfolio>h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 20px;
 }
-.protfolio>p{
+
+.protfolio>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -307,16 +339,19 @@ header>h1{
     line-height: 32px;
     margin-bottom: 30px;
 }
-.protfolio-img-container{
+
+.protfolio-img-container {
     width: 1320px;
 }
-.protfolio-img-container>img{
+
+.protfolio-img-container>img {
     width: 437px;
     height: 450px;
     padding: 24px;
     transition: 0.2s ease;
 }
-.protfolio-img-container>img:hover{
+
+.protfolio-img-container>img:hover {
     transform: scale(1.1);
 }
 
@@ -324,19 +359,22 @@ header>h1{
 
 
 /* section subscribe */
-.subscribe{
+.subscribe {
     width: 1320px;
     margin: 0 auto;
     background-color: #FFF2F2;
     text-align: center;
     margin-bottom: 100px;
-    height: 616px;;
+    height: 616px;
+    ;
 }
-.subscribe>img{
+
+.subscribe>img {
     margin-bottom: 20px;
     margin-top: 100px;
 }
-.subscribe>h1{
+
+.subscribe>h1 {
     margin-bottom: 20px;
     color: #070211;
     text-align: center;
@@ -344,7 +382,8 @@ header>h1{
     font-size: 48px;
     font-weight: 900;
 }
-.subscribe>p{
+
+.subscribe>p {
     margin-bottom: 20px;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -352,32 +391,37 @@ header>h1{
     font-size: 20px;
     font-weight: 400;
 }
-.input-container{
+
+.input-container {
     position: relative;
     margin-top: 70px;
 }
-.input-space{
+
+.input-space {
     width: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-input[type="email"]{
-    padding: 20px  60px 20px 20px;
+
+input[type="email"] {
+    padding: 20px 60px 20px 20px;
     border: none;
     border-radius: 50px 0 0 50px;
     outline: none;
 }
-input[type="email"]::placeholder{
+
+input[type="email"]::placeholder {
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
 }
-input[type="submit"]{
-    padding: 13px  40px 18px 40px;
+
+input[type="submit"] {
+    padding: 13px 40px 18px 40px;
     border: none;
     font-family: Inter;
     position: relative;
@@ -391,7 +435,8 @@ input[type="submit"]{
     background-color: #F00;
     transition: 0.2s ease;
 }
-input[type="submit"]:hover{
+
+input[type="submit"]:hover {
     background-color: #ff7200;
 }
 
@@ -400,16 +445,17 @@ input[type="submit"]:hover{
 
 
 /* footer */
-footer{
+footer {
     height: 609px;
     background-color: #070211;
 }
 
-.container1{
+.container1 {
     display: flex;
     justify-content: space-between;
 }
-.container1 div h1{
+
+.container1 div h1 {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -419,16 +465,18 @@ footer{
     margin-left: 285px;
 }
 
-.container1 ul{
+.container1 ul {
     margin-top: 90px;
     margin-right: 285px;
 }
-.container1 ul li{
+
+.container1 ul li {
     list-style: none;
     display: flex;
     align-items: center;
 }
-.container1 h2{
+
+.container1 h2 {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -436,57 +484,69 @@ footer{
     line-height: 40px;
     display: inline;
 }
-.container1 img{
+
+.container1 img {
     margin-right: 10px;
 }
 
-.container2{
+.container2 {
     display: flex;
     justify-content: center;
 }
-.container2>a>img{
+
+.container2>a>img {
     margin: 0px 20px 0 20px;
     transition: 0.2s ease;
 }
-.container2>a>img:hover{
+
+.container2>a>img:hover {
     transform: scale(1.1);
 }
 
-.container3{
+.container3 {
     display: flex;
     justify-content: space-between;
 }
-.container3>div>h1{
+
+.container3>div>h1 {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin: 100px 100px 0 100px ;
-}.container3>div>h1:first-child{
+    margin: 100px 100px 0 100px;
+}
+
+.container3>div>h1:first-child {
     margin-left: 285px;
 }
-.container3>div>h1:last-child{
+
+.container3>div>h1:last-child {
     margin-right: 285px;
 }
-.unsubscribe{
+
+.unsubscribe {
     transition: 0.2s ease;
 }
-.unsubscribe:hover{
+
+.unsubscribe:hover {
     color: rgb(185, 177, 177);
 }
-hr{
+
+hr {
     display: block;
-    margin:  0 auto;
+    margin: 0 auto;
     width: 1320px;
     height: 1px;
     border: none;
     background: rgba(255, 255, 255, 0.15);
 }
-.hr1{
+
+.hr1 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.hr2:last-child{
+
+.hr2:last-child {
     margin-top: 50px;
 }
 
